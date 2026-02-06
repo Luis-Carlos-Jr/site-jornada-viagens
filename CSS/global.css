@@ -129,7 +129,7 @@ body {
 }
 
 .section-title hr {
-  display: block;
+  display: inline-block;
   width: 180px;
   height: 4px;
   background-color: var(--elements-primary-color);
