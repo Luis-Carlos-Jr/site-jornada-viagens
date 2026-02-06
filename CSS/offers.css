@@ -1,4 +1,4 @@
-.offers_card div{
+.offers_card div {
   background-image: url(../img/bg-card-japao.jpg);
   background-position: center;
   background-size: cover;
@@ -10,9 +10,22 @@
   align-items: center;
   color: var(--text-secondary-color);
   gap: 24px;
+  position: relative;
+  overflow: hidden;
 }
 
-.offers_card header{
+.offers_card div::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  inset: 0;
+}
+
+.offers_card div > * {
+  z-index: 1;
+}
+
+.offers_card header {
   display: flex;
   flex-direction: column;
   gap: 8px;
