@@ -19,3 +19,12 @@
     padding: 88px 60px 0;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .hero_top_img {
+    background-image: url(../img/hero-desktop.jpg);
+  }
+  .section_hero_top p {
+    padding: 104px 120px 0;
+  }
+}
