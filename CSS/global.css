@@ -72,7 +72,8 @@ body {
 }
 
 .text-body-2-to-4 {
-  font-size: clamp(20px, 2.2vw, 32px);
+  /*minimo de 20px e máximo de 32px em de tela 768px*/
+  font-size: clamp(20px, 4.1vw, 32px);
   line-height: max(32px, 1.5em);
 }
 

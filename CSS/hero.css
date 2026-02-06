@@ -1,11 +1,21 @@
-.hero_top_img{
+.hero_top_img {
   background-image: url(../img/hero-mobile.jpg);
   height: max(400px, 55vh);
   background-position: center;
   background-size: cover;
 }
 
-.section_hero_top p{
+.section_hero_top p {
   padding: 88px 24px 0;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero_top_img {
+    background-image: url(../img/hero-tablet.jpg);
+  }
+
+  .section_hero_top p {
+    padding: 88px 60px 0;
+  }
 }
