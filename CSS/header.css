@@ -1,11 +1,36 @@
-.header_main{
+.header_main {
   background-color: var(--background-secondary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 37px 48px;
+  padding: 37px clamp(48px, 8.3vw, 160px);
+  position: relative;
 }
 
-.header_main_menu label{
+.header_main_menu label {
   display: flex;
+}
+
+.header_main input:checked ~ nav {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: var(--background-secondary-color);
+  width: 100%;
+}
+
+.header_nav ul {
+  list-style: none;
+}
+
+.header_nav li {
+  margin: 16px 0 16px 20px;
+}
+
+.header_nav a{
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-menu-weight);
+  font-size: 24px;
 }
