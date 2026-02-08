@@ -1,0 +1,11 @@
+.header_main{
+  background-color: var(--background-secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 48px;
+}
+
+.header_main_menu label{
+  display: flex;
+}
