@@ -1,4 +1,4 @@
-.header_main {
+.section_header_main {
   background-color: var(--background-secondary-color);
   display: flex;
   justify-content: space-between;
@@ -7,11 +7,11 @@
   position: relative;
 }
 
-.header_main_menu label {
+.section_header_main label {
   display: flex;
 }
 
-.header_main input:checked ~ nav {
+.section_header_main input:checked ~ nav {
   display: block;
   position: absolute;
   left: 0;

@@ -79,7 +79,7 @@ section {
 }
 
 .section_hero {
-  padding: 0;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
