@@ -59,7 +59,7 @@
     display: block;
   }
 
-  .header_nav a:hover{
+  .header_nav a:hover {
     color: var(--elements-hover-color);
   }
 }
