@@ -4,6 +4,12 @@
   gap: 24px;
 }
 
+.payments_grid header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .payments_grid h3 {
   font-weight: var(--text-title-weight);
   font-size: 28px;
@@ -28,17 +34,33 @@
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 254px;
 }
 
-.payments_img_1 {
+.payments_img.small_1 {
   background-image: url(../img/gallery1-mobile.png);
 }
 
-.payments_img_2 {
+.payments_img.small_2 {
   background-image: url(../img/gallery2-mobile.png);
 }
 
-.payments_img_long {
+.payments_img.long {
+  height: 182px;
   background-image: url(../img/gallery3-mobile.png);
   grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments_img_1 {
+    background-image: url(../img/gallery1-tablet.png);
+  }
+
+  .payments_img_2 {
+    background-image: url(../img/gallery2-tablet.png);
+  }
+
+  .payments_img_long {
+    background-image: url(../img/gallery3-tablet.png);
+  }
 }
