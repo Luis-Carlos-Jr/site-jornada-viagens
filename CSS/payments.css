@@ -1,0 +1,44 @@
+.payments_grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payments_grid h3 {
+  font-weight: var(--text-title-weight);
+  font-size: 28px;
+  text-align: center;
+}
+
+.payments_grid p {
+  font-weight: var(--text-prymary-weight);
+  font-size: 20px;
+  line-height: 32px;
+  text-align: justify;
+}
+
+.payments_img_grid {
+  height: 460px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.payments_img {
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.payments_img_1 {
+  background-image: url(../img/gallery1-mobile.png);
+}
+
+.payments_img_2 {
+  background-image: url(../img/gallery2-mobile.png);
+}
+
+.payments_img_long {
+  background-image: url(../img/gallery3-mobile.png);
+  grid-column: span 2;
+}
