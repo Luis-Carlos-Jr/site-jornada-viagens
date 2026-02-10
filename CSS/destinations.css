@@ -44,7 +44,21 @@
     height: 452px;
   }
 
-  .destinations_card footer{
+  .destinations_card footer {
     align-self: self-start;
+  }
+
+  .destinations_card p {
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations_grid {
+    flex-direction: row;
+  }
+
+  .destinations_card div {
+    width: 588px;
   }
 }
