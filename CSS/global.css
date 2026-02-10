@@ -92,8 +92,9 @@ section {
 }
 
 /*redução de distração visual*/
-/* .section_header_main,
+.section_header_main,
 .section_hero,
-.section_offers{
+.section_offers,
+.section_categories{
   display: none;
-} */
+}
