@@ -1,0 +1,45 @@
+.testimonials_grid{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.testimonials_card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.testimonials_card p {
+  font-weight: var(--text-primary-weight);
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.testimonials_card div p {
+  font-weight: var(--text-title-weight);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.testimonials_card footer {
+  display: flex;
+  gap: 24px;
+}
+
+.testimonials_card footer p{
+  text-align: center;
+}
+
+.testimonials_avatar {
+  width: 86px;
+  height: 86px;
+}
+
+.star {
+  width: 32px;
+  height: 32px;
+}
+
+
