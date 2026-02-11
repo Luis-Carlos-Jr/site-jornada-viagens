@@ -46,6 +46,7 @@
 }
 
 .payments_img.long {
+  background-position: bottom;
   height: 182px;
   background-image: url(../img/gallery3-mobile.png);
   grid-column: span 2;
@@ -62,6 +63,13 @@
 
   .payments_img_long {
     background-image: url(../img/gallery3-tablet.png);
+  }
+
+  .payments_img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
   }
 }
 
