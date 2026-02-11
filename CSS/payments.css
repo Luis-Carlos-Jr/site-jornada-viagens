@@ -64,3 +64,22 @@
     background-image: url(../img/gallery3-tablet.png);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .payments_grid {
+    flex-direction: row;
+  }
+
+  .payments_img.long {
+    width: 790px;
+  }
+
+  .payments_grid header {
+    padding-right: 23px;
+  }
+
+  .payments_grid header h3 {
+    width: 285px;
+    text-align: start;
+  }
+}
