@@ -93,3 +93,14 @@ section {
     width: 1200px;
   }
 }
+
+.section_header_main,
+.section_hero_main,
+.section_offers,
+.section_categories,
+.section_destinations,
+.section_payments,
+.section_testimonials,
+.section_hero_footer {
+  display: none;
+}

@@ -1,4 +1,4 @@
-.section_footer div {
+.section_hero_footer div {
   background-image: url(../img/bg-bottom-hero-mobile.png);
   background-position: center;
   background-size: cover;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section_footer div {
+  .section_hero_footer div {
     background-image: url(../img/bg-bottom-hero-tablet.png);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .section_footer div {
+  .section_hero_footer div {
     background-image: url(../img/bg-bottom-hero-desktop.png);
     height: 600px;
   }
