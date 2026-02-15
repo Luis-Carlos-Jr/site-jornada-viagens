@@ -1,0 +1,81 @@
+.hero_main_img {
+  background-image: url(../img/hero-mobile.jpg);
+  height: clamp(400px, 65vw, 620px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 88px;
+}
+
+/* .offers_card div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  color: var(--text-secondary-color);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.offers_card div::before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
+  position: absolute;
+}
+
+.offers_card div > *{
+  z-index: 1;
+} */
+
+.package_hero_main .hero_main_img {
+  background-image: url(../img/travel-packages/japan-bg-hero-tablet.png);
+  padding: 65px 24px;
+  height: 460px;
+  position: relative;
+}
+
+.package_hero_main .hero_main_img::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
+}
+
+.hero_main_img div,
+.hero_main_img .section_title {
+  position: relative;
+  z-index: 1;
+}
+
+
+.section_hero_main h1 {
+  padding: 0 clamp(24px, 8.3vw, 160px);
+  font-weight: var(--text-primary-weight);
+  text-align: center;
+  font-size: clamp(20px, 5.5vw, 32px);
+  line-height: max(32px, 1.5em);
+}
+
+.package_hero_main h1 {
+  color: var(--text-secondary-color);
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero_main_img {
+    background-image: url(../img/hero-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero_main_img {
+    background-image: url(../img/hero-desktop.jpg);
+  }
+}
